@@ -446,7 +446,7 @@ void CFontManager::UploadTextureForFont(CBaseFont *font)
 	{ 0x0021, 0x007E, NULL, 0 }, // ascii printable range
 	{ 0x00C0, 0x00FF, NULL, 0 }, // latin-1 supplement (letters only)
 	{ 0x0400, 0x045F, NULL, 0 }, // cyrillic range
-	{ 0x4E00, 0x9FFF, NULL, 0 }, // 基本汉字
+	// { 0x4E00, 0x9FFF, NULL, 0 }, // 基本汉字
 	{ 0, 0, table_cp1251, V_ARRAYSIZE( table_cp1251 ) }, // cp1251
 	};
 
